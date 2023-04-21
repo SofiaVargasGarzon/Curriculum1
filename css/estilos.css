@@ -20,12 +20,10 @@ body.header{
     height: 500px;
 }
 
-.circular--square {
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-  }
+
+img{
+    border-radius: 50%;
+}
     
 main > section>article{
     margin: 0 auto;
@@ -35,4 +33,9 @@ main > section>article{
     padding: 10px 20px;
     border: 1px solid black;
     color: #555;
+}
+
+
+main > section > article > h3{
+    color: tomato;
 }
