@@ -1,4 +1,4 @@
-/**{
+*{
     border: 1px dotted purple;
 }
 
@@ -24,7 +24,7 @@ body.header{
 body > header > img{
     border-radius: 50%;
     text-align: left;
-    float: left;
+    ;
 }
 
 body > header > h1{
@@ -45,36 +45,28 @@ main > section>article{
     color:black;
 }
 
-main > section > article> h4{
+main > section > article> h4,p{
     text-align: right;
 }
 
 main > article > section> h3{
-    text-align: left;
-}
-main > section > article> p{
     text-align: right;
 }
 
-div, aside{
+aside{
     background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 10px 10px;
+    width: 488px;
+    border: 10px greenyellow;
+    padding: 3px 3px;
     margin: 0px;
     float: left;
 }
 
 main{
     background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
+    width: 499px;
+    border: 10px greenyellow;
+    padding: 3px 3px;
     margin: 0px;
-    float: left;
+    float: right;
 }
-
-body>header> {
-
-}
-*/
