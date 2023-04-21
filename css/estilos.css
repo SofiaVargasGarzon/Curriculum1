@@ -17,25 +17,76 @@ body.header{
     margin: 0px;
     background-color: blueviolet;
     width: 694px;
-    height: 500px;
+    height: 400px;
 }
 
-
-img{
+body > header > img{
     border-radius: 50%;
+    text-align: left;
 }
-    
+
+body > header > h1{
+    text-align: right;
+}
+
+body > header > h2{
+    text-align: right;
+}
+  
 main > section>article{
     margin: 0 auto;
     max-width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: 1px solid black;
-    color: #555;
+    color:black;
 }
 
-
-main > section > article > h3{
-    color: tomato;
+main > section > article> h4{
+    text-align: right;
 }
+
+main > article > section> h3{
+    text-align: left;
+}
+main > section > article> p{
+    text-align: right;
+}
+
+div{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+    float: right;
+  }
+
+div{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+    float: left;
+}
+
+aside{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+    float: left;
+}
+
+main{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+    float: left;
+}
+
