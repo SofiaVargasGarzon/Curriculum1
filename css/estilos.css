@@ -1,5 +1,5 @@
 *{
-    border: 1px dotted purple;
+    border: 0px dotted;
 }
 
 body {
@@ -8,11 +8,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 1px solid black;
     color: #555;
 }
 
-body.header{
+header{
     display: inline-block;
     margin: 0px;
     background-color: blue;
@@ -21,17 +20,17 @@ body.header{
 
 }
 
-body > header > img{
+header > img{
     border-radius: 50%;
     text-align: left;
-    ;
+    float: left;
 }
 
-body > header > h1{
+header > h1{
     text-align: right;
 }
 
-body > header > h2{
+header > h2{
     text-align: right;
 }
   
@@ -41,32 +40,36 @@ main > section>article{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 10px 10px;
-    border: 1px solid black;
-    color:black;
+   
 }
 
 main > section > article> h4,p{
     text-align: right;
+    
+
 }
 
 main > article > section> h3{
     text-align: right;
 }
 
+main{
+    background-color: lightgrey;
+    width: 497px;
+    padding: 3px 3px;
+    margin: 0px;
+    float: right;
+    color: rgb(241, 234, 234);
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgb(15, 45, 163),rgb(14, 151, 172));
+}
+
 aside{
     background-color: lightgrey;
-    width: 488px;
+    width: 488.5px;
     border: 10px greenyellow;
     padding: 3px 3px;
     margin: 0px;
     float: left;
-}
-
-main{
-    background-color: lightgrey;
-    width: 499px;
-    border: 10px greenyellow;
-    padding: 3px 3px;
-    margin: 0px;
-    float: right;
 }
