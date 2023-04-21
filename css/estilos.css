@@ -1,4 +1,4 @@
-*{
+/**{
     border: 1px dotted purple;
 }
 
@@ -15,14 +15,16 @@ body {
 body.header{
     display: inline-block;
     margin: 0px;
-    background-color: blueviolet;
+    background-color: blue;
     width: 694px;
     height: 400px;
+
 }
 
 body > header > img{
     border-radius: 50%;
     text-align: left;
+    float: left;
 }
 
 body > header > h1{
@@ -54,29 +56,11 @@ main > section > article> p{
     text-align: right;
 }
 
-div{
+div, aside{
     background-color: lightgrey;
     width: 300px;
     border: 15px solid green;
-    padding: 50px;
-    margin: 0px;
-    float: right;
-  }
-
-div{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 0px;
-    float: left;
-}
-
-aside{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
+    padding: 10px 10px;
     margin: 0px;
     float: left;
 }
@@ -90,3 +74,7 @@ main{
     float: left;
 }
 
+body>header> {
+
+}
+*/
