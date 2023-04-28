@@ -28,10 +28,12 @@ header > img{
 
 header > h1{
     text-align: right;
+    color: white;
 }
 
 header > h2{
     text-align: right;
+    color: white;
 }
   
 main > section>article{
